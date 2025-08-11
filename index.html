@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flood Insurance Guy - Need Flood Insurance? Call the Good Guy!</title>
+    <meta name="description" content="Professional flood insurance services. Get your quote today! Call 855-59-FLOOD for expert flood insurance coverage.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video-container">
+            <video 
+                class="hero-video" 
+                autoplay 
+                muted 
+                loop 
+                playsinline
+                poster="hero_image_placeholder.jpg"
+            >
+                <source src="hero_video_placeholder.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Need Flood Insurance?</h1>
+                <h2 class="hero-subtitle">Call the Good Guy in Flood Insurance.<br>We're Here for You.</h2>
+                <div class="hero-phone">
+                    <a href="tel:855-59-FLOOD" class="phone-link">
+                        <span class="phone-icon">📞</span>
+                        <span class="phone-number">855-59-FLOOD</span>
+                    </a>
+                </div>
+                <div class="hero-cta">
+                    <a href="#quote-form" class="cta-button">Get Your Free Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">Why Flood Insurance Matters</h2>
+            <div class="video-wrapper">
+                <video 
+                    id="main-video"
+                    class="main-video" 
+                    controls
+                    muted
+                    poster="hero_image_placeholder.jpg"
+                >
+                    <source src="main_video_placeholder.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <button id="unmute-btn" class="unmute-button">🔊 Unmute</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section id="quote-form" class="quote-section">
+        <div class="container">
+            <div class="quote-content">
+                <div class="quote-info">
+                    <h2 class="section-title">Get Your Free Quote Today</h2>
+                    <p class="quote-description">
+                        Protect your property with comprehensive flood insurance coverage. 
+                        Fill out the form below and we'll get back to you with a personalized quote.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <a href="tel:855-59-FLOOD">855-59-FLOOD</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🌐</span>
+                            <span>TheFloodInsuranceGuy.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="quote-form" id="quoteForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Property Address *</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="property-type">Property Type *</label>
+                        <select id="property-type" name="property-type" required>
+                            <option value="">Select Property Type</option>
+                            <option value="single-family">Single Family Home</option>
+                            <option value="condo">Condominium</option>
+                            <option value="townhouse">Townhouse</option>
+                            <option value="mobile-home">Mobile Home</option>
+                            <option value="commercial">Commercial Property</option>
+                            <option value="rental">Rental Property</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Get My Free Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 The Flood Insurance Guy. All rights reserved.</p>
+            <p>Professional flood insurance services you can trust.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
